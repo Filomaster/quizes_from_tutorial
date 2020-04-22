@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Która konsola nie pochodzi z 8 generacji?",
+    "choice1": "PlayStation 4",
+    "choice2": "Xbox One X",
+    "choice3": "Nintendo Switch",
+    "choice4": "Sega Saturn",
+    "answer": 4
+  },
+  {
+    "question": "W jakiej architekturze wykonano procesory Ryzen 3000?",
+    "choice1": "Zen",
+    "choice2": "Zen+",
+    "choice3": "Zen 2",
+    "choice4": "Zen 3",
+    "answer": 3
+  },
+  {
+    "question": "VCS to inaczej:",
+    "choice1": "Version Control System",
+    "choice2": "Version Centification Scheme",
+    "choice3": "Virtual Central System",
+    "choice4": "Vermilion Control Standard",
+    "answer": 1
+  },
+  {
+    "question": "MOSFET to:",
+    "choice1": "Rodzaj rezystora",
+    "choice2": "Rodzaj cewki",
+    "choice3": "Tranzystor unipolarny",
+    "choice4": "Tranzystor bipolarny",
+    "answer": 3
+  },
+  {
+    "question": "Która pozycja nie jest językiem programowania?",
+    "choice1": "C#",
+    "choice2": "HTML",
+    "choice3": "Ruby",
+    "choice4": "Java",
+    "answer": 2
+  },
+  {
+    "question": "Jaki znak sygnalizuje sygnał ucieczki ASCII?",
+    "choice1": "\\",
+    "choice2": "/",
+    "choice3": "$",
+    "choice4": "^",
+    "answer": 1
+  },
+  {
+    "question": "Który kod nie jest poprawnym kolorem?",
+    "choice1": "#123456",
+    "choice2": "#f12f66",
+    "choice3": "#333",
+    "choice4": "#1h68a",
+    "answer": 4
+  },
+  {
+    "question": "Który z systemów nie jest systemem mobilnym?",
+    "choice1": "Android",
+    "choice2": "IOS",
+    "choice3": "Windows 7",
+    "choice4": "Symbian",
+    "answer": 3
+  },
+  {
+    "question": "Który z poniższych edytorów nie jest przeznaczony do pisania kodu?",
+    "choice1": "Notatnik",
+    "choice2": "Visual Studio Code",
+    "choice3": "Atom",
+    "choice4": "Notepad ++",
+    "answer": 1
+  },
+  {
+    "question": "Który z podanych programów nie jest zintegrowanym środowiskiem (IDE)?",
+    "choice1": "Visual Studio Community",
+    "choice2": "IntelliJ",
+    "choice3": "PyCharm",
+    "choice4": "Atom",
+    "answer": 4
+  }
+]

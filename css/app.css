@@ -1,0 +1,148 @@
+:root {
+  background-color: #333;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #efefee;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 5.4rem;
+  color: #ffbe5c;
+  margin-bottom: 5rem;
+}
+h1 > span {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+/* Utilities */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* This *should* work, but apparently it doesn't */
+.container > * {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Buttons */
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  /* border: 0.2rem solid #ffbe5c;
+ */
+  border: none;
+  background-color: #333;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #ffbe5c;
+  box-shadow: 0.2rem 0.2rem 0.3rem 0 rgba(17, 17, 17, 0.5),
+    -0.2rem -0.2rem 0.3rem 0 rgba(170, 170, 170, 0.4);
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #ff961d;
+  /* background-color: #252525; */
+  border-color: #ff961d;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0 rgba(17, 17, 17, 0.5),
+    -0.1rem -0.1rem 0.3rem 0 rgba(170, 170, 170, 0.4);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.btn:active {
+  color: #aa6618;
+  box-shadow: inset 0.3rem 0.3rem 0.3rem 0 rgba(17, 17, 17, 0.5),
+    inset -0.1rem -0.1rem 0.3rem 0 rgba(170, 170, 170, 0.4);
+  transform: translateY(-0.1rem);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+  box-shadow: 0.2rem 0.2rem 0.3rem 0 rgba(17, 17, 17, 0.5),
+    -0.2rem -0.2rem 0.3rem 0 rgba(170, 170, 170, 0.4);
+}
+
+.title {
+  text-align: center;
+}
+
+/* Form */
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  text-align: center;
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  background-color: #333;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0.2rem 0.2rem 0.3rem 0 rgba(17, 17, 17, 0.5),
+    inset -0.2rem -0.2rem 0.3rem 0 rgba(170, 170, 170, 0.4);
+}
